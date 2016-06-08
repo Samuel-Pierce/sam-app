@@ -1,0 +1,97 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+
+    <title>
+      
+        Samuel Pierce 
+      
+    </title>
+
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+    <link href="../../dist/toolkit.css" rel="stylesheet">
+    
+    <link href="../assets/css/application.css" rel="stylesheet">
+
+    <style>
+      /* note: this is a hack for ios iframe for bootstrap themes shopify page */
+      /* this chunk of css is not part of the toolkit :) */
+      body {
+        width: 1px;
+        min-width: 100%;
+        *width: 100%;
+      }
+    </style>
+
+  </head>
+
+
+<body>
+ 
+  
+<div class="profile-header text-center"
+     style="background-image: url(../assets/img/header-bg-2.jpeg); background-size: cover;">
+  <div class="container">
+    <img class="img-circle media-object" src="../assets/img/avatar-dhg.png">
+    <h3 class="profile-header-user">Samuel Pierce</h3>
+    <p class="profile-header-bio">
+      User Experience Designer <b>&middot;</b> Javascript Developer
+    </p>
+  </div>
+
+  <nav class="profile-header-nav">
+    <ul class="nav nav-tabs">
+      <li>
+        <a href="index.html">Portfolio</a>
+      </li>
+      <li class="active">
+        <a href="#">Contact</a>
+      </li>
+    </ul>
+  </nav>
+  
+</div>
+
+  <div class="container p-y-lg">
+    <!--<h2 class="m-b-md text-center text-uppercase">Contact Me</h2>-->
+    <form>
+      <fieldset class="form-group">
+        <label for="name">Name</label>
+        <input type="text" class="form-control input-lg" id="name">
+      </fieldset>
+      <fieldset class="form-group">
+        <label for="email">Email</label>
+        <input type="email" class="form-control input-lg" id="email">
+      </fieldset>
+      <fieldset class="form-group">
+        <label for="message">Message</label>
+        <textarea rows="4" type="text" class="form-control input-lg" id="message"></textarea>
+      </fieldset>
+      <input type="button" name="send" value="Send" action="send-form.php" class="btn btn-primary-outline btn-lg btn-block">
+    </form>
+  </div>
+  
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/js/chart.js"></script>
+    <script src="../assets/js/toolkit.js"></script>
+    <script src="../assets/js/application.js"></script>
+    <script>
+      // execute/clear BS loaders for docs
+      $(function(){
+        if (window.BS&&window.BS.loader&&window.BS.loader.length) {
+          while(BS.loader.length){(BS.loader.pop())()}
+        }
+      })
+    </script>
+  </body>
+</html>
+
