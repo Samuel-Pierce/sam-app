@@ -17,6 +17,7 @@
       
     </title>
 
+    <link href='https://fonts.googleapis.com/css?family=Knewave' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
     <link href="../dist/toolkit.css" rel="stylesheet">
     
@@ -39,72 +40,28 @@
 <nav class="navbar navbar-inverse navbar-fixed-top app-navbar">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-main">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
       <a class="navbar-brand" href="../index.html">
         <!--<img src="assets/img/brand-white.png" alt="brand">-->
-        Samuel Pierce
+        <span style="font-family: 'Knewave', cursive; font-size: 3.2rem;">Samuel Pierce</span>
       </a>
     </div>
-    <div class="navbar-collapse collapse" id="navbar-collapse-main">
-
-        <ul class="nav navbar-nav hidden-xs">
-          <li class="active">
-            <a href="#">Portfolio</a>
-          </li>
-          <!--<li>
-            <a href="../profile/index.html">Profile</a>
-          </li>
-          <li>
-            <a data-toggle="modal" href="#msgModal">Messages</a>
-          </li>
-          <li>
-            <a href="../docs/index.html">Docs</a>
-          </li>-->
-        </ul>
-
         <ul class="nav navbar-nav navbar-right m-r-0 hidden-xs">
-          <li class="active">
+          <li class="active visible-xs">
             <a class="app-notifications" href="../notifications/index.html">
-              <span class="icon icon-facebook"></span>
+              <span class="icon icon-phone"></span>
             </a>
           </li>
           <li class="active">
             <a class="app-notifications" href="../notifications/index.html">
-              <span class="icon icon-medium"></span>
+              <span class="icon icon-mail"></span>
             </a>
           </li>
-          <li class="active">
-            <a class="app-notifications" href="../notifications/index.html">
-              <span class="icon icon-dribbble"></span>
-            </a>
-          </li>
-          <li>
+          <li class="hidden-xs">
             <button class="btn btn-default navbar-btn navbar-btn-avitar" data-toggle="popover">
               <img class="img-circle" src="assets/img/sam.jpg">
             </button>
           </li>
         </ul>
-
-        <!--<ul class="nav navbar-nav hidden-sm hidden-md hidden-lg">
-          <li><a href="../index.html">Home</a></li>
-          <li><a href="../profile/index.html">Profile</a></li>
-          <li><a href="../notifications/index.html">Notifications</a></li>
-          <li><a data-toggle="modal" href="#msgModal">Messages</a></li>
-          <li><a href="../docs/index.html">Docs</a></li>
-          <li><a href="#" data-action="growl">Growl</a></li>
-          <li><a href="../login/index.html">Logout</a></li>
-        </ul>-->
-
-        <ul class="nav navbar-nav hidden">
-          <li><a href="#" data-action="growl">Growl</a></li>
-          <li><a href="../login/index.html">Logout</a></li>
-        </ul>
-      </div>
   </div>
 </nav>
 <div class="container p-t-md">
@@ -129,14 +86,14 @@
             <li class="panel-menu-item">
               <a href="#userModal" class="text-inherit" data-toggle="modal">
                 Websites
-                <h5 class="m-y-0">12M</h5>
+                <h5 class="m-y-0">4</h5>
               </a>
             </li>
 
             <li class="panel-menu-item">
               <a href="#userModal" class="text-inherit" data-toggle="modal">
                 Apps
-                <h5 class="m-y-0">1</h5>
+                <h5 class="m-y-0">3</h5>
               </a>
             </li>
             
@@ -154,16 +111,17 @@
         <div class="panel-body">
           <h5 class="m-t-0">About</h5>
           <ul class="list-unstyled list-spaced">
-            <li><span class="text-muted icon icon-calendar m-r"></span>Went to <a href="#">UNH</a>
+            <li><span class="text-muted icon icon-graduation-cap m-r"></span>Went to <a target="_blank" href="http://www.unh.edu/">UNH</a>
             <!--<li><span class="text-muted icon icon-users m-r"></span>Became friends with <a href="#">Obama</a>-->
-            <li><span class="text-muted icon icon-github m-r"></span>Works at <a href="#">myLudus</a>
-            <li><span class="text-muted icon icon-home m-r"></span>Lives in <a href="#">Amherst, NH</a>
+            <li><span class="text-muted icon icon-github m-r"></span>Works at <a target="_blank" href="http://stage.myludus.com:8050/">myLudus</a>
+            <li><span class="text-muted icon icon-home m-r"></span>Lives in <a target="_blank" href="https://www.google.com/maps/place/Amherst,+NH/data=!4m2!3m1!1s0x89e3caf002322c3b:0xbdeeca5c7de8ff63?sa=X&ved=0ahUKEwjM0O2F-pjNAhVDZCYKHRAsAu4Q8gEIhQEwDw">Amherst, NH</a>
+            <li><span class="text-muted icon icon-document m-r"></span>View <a target="_blank" href="#">Resume</a>
             <!--<li><span class="text-muted icon icon-location-pin m-r"></span>From <a href="#">Seattle, WA</a>-->
           </ul>
         </div>
       </div>
       
-            <div class="panel panel-default m-b-md hidden-xs">
+      <!--<div class="panel panel-default m-b-md hidden-xs">
         <div class="panel-body">
           <h5 class="m-t-0">Contact Me</h5>
           <form>
@@ -179,9 +137,9 @@
             <input type="button" name="send" value="Send" action="send-form.php" class="btn btn-primary-outline btn-lg btn-block">
           </form>
         </div>
-      </div>
+      </div>-->
 
-       <div class="panel panel-default visible-md-block visible-lg-block">
+       <!--<div class="panel panel-default visible-md-block visible-lg-block">
         <div class="panel-body">
           <h5 class="m-t-0">My Family</h5>
           <div data-grid="images" data-target-height="150">
@@ -206,7 +164,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div>-->
     </div>
 
     <div class="col-md-8">
@@ -226,6 +184,47 @@
         <li class="media list-group-item p-x">
           <div class="media-body">
             <div class="media-heading">
+              <p class="pull-right text-muted">June, 8 2016</p>
+              <h3>Amherst Painting Company <span class="text-muted">Website</span></h3>
+            </div>
+
+            <p>
+              Aenean lacinia bibendum nulla sed consectetur. Vestibulum id ligula porta felis euismod semper. Morbi leo risus, porta ac
+              consectetur ac.s
+            </p>
+              
+            <a href="#">Visit Website</a>
+            <b>&middot;</b>
+            <a href="#">Download App</a>
+
+            <div class="media-body-inline-grid" data-grid="images">
+              <div style="display: none">
+                <img data-action="zoom" src="assets/img/amherst.png">
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="media list-group-item p-x">
+          <div class="media-body">
+            <div class="media-heading">
+              <p class="pull-right text-muted">Expected: September 1, 2016</p>
+              <h3>myLudus <span class="text-muted">Web / Mobile Applications</span></h3>
+            </div>
+
+            <p>In the process of designing and developing a suite of mobile and web applications for the myLudus platform.</p>
+              
+            <a href="#">Visit Website</a>
+
+            <div class="media-body-inline-grid" data-grid="images">
+              <div style="display: none">
+                <img data-action="zoom" src="assets/img/myludus.png">
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="media list-group-item p-x">
+          <div class="media-body">
+            <div class="media-heading">
               <p class="pull-right text-muted">May, 8 2016</p>
               <h3>Mesh01 <span class="text-muted">Web / Mobile Applications</span></h3>
             </div>
@@ -241,7 +240,30 @@
 
             <div class="media-body-inline-grid" data-grid="images">
               <div style="display: none">
-                <img data-action="zoom" src="assets/img/screen-mesh-1.png">
+                <img data-action="zoom" src="assets/img/mesh.png">
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="media list-group-item p-x">
+          <div class="media-body">
+            <div class="media-heading">
+              <p class="pull-right text-muted">May, 8 2016</p>
+              <h3>Countdown <span class="text-muted">Project</span></h3>
+            </div>
+
+            <p>
+              Aenean lacinia bibendum nulla sed consectetur. Vestibulum id ligula porta felis euismod semper. Morbi leo risus, porta ac
+              consectetur ac.s
+            </p>
+              
+            <a href="#">Visit Website</a>
+            <b>&middot;</b>
+            <a href="#">Download App</a>
+
+            <div class="media-body-inline-grid" data-grid="images">
+              <div style="display: none">
+                <img data-action="zoom" src="assets/img/countdown.png">
               </div>
             </div>
           </div>
